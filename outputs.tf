@@ -1,3 +1,7 @@
 output "role_arn" {
-  value = data.aws_iam_role.admin_role.arn
+  value = var.role_arn
+}
+
+output "region" {
+  value = var.region
 }

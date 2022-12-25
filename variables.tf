@@ -1,6 +1,7 @@
 variable "region" {
   type        = string
   description = "AWS default region"
+  default     = "us-east-1"
 }
 
 variable "role_arn" {
