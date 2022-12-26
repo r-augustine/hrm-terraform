@@ -3,13 +3,13 @@ terraform {
     organization = "raugustine"
 
     workspaces {
-        name = "hrm-terraform"
+      name = "hrm-terraform"
     }
   }
 
   required_providers {
     aws = {
-      source  = "hasicorp/aws"
+      source  = "hashicorp/aws"
       version = "4.48.0"
     }
   }
