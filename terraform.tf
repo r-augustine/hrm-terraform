@@ -1,6 +1,6 @@
 terraform {
   cloud {
-    organization = "raugustine"
+    organization = "r-augustine"
 
     workspaces {
       name = "hrm-terraform"
